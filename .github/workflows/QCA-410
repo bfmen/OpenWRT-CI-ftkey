@@ -34,7 +34,7 @@ jobs:
       matrix:
         TARGET: [GENERAL-410]
         REPO_INFO:
-          - {SOURCE: lkiuyu/immortalwrt, BRANCH: master, NAME: immortalwrt, SUFFIX: immortalwrt}
+          - {SOURCE: lkiuyu/immortalwrt, BRANCH: master, NAME: 410, SUFFIX: 410}
     #调用公用编译核心WRT-CORE-410.yml
     uses: ./.github/workflows/WRT-CORE-410.yml
     with:
